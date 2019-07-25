@@ -1,0 +1,30 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>2.1.1.RELEASE</version>
+		<relativePath /> <!-- lookup parent from repository -->
+	</parent>
+	<groupId>com.sb2</groupId>
+	<artifactId>spring-boot-2-jbpm</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+	<name>spring-boot-2-jbpm</name>
+	<url>http://maven.apache.org</url>
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<java.version>1.8</java.version>
+		<version.spring-boot>2.1.1.RELEASE</version.spring-boot>
+		<version.org.jboss.narayana.tomcat>5.9.5.Final</version.org.jboss.narayana.tomcat>
+		<kie.version>7.23.0.Final</kie.version>
+		<version.cxf.jaxrs>3.3.2</version.cxf.jaxrs>
+		<version.swagger>1.5.22</version.swagger>
+	</properties>
+	<modules>
+		<module>spring-boot-2-jbpm-app</module>
+		<module>spring-boot-2-jbpm-workflow</module>
+	</modules>
+</project>
