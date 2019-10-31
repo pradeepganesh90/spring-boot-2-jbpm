@@ -19,7 +19,7 @@
 		<version.cxf.jaxrs>3.3.2</version.cxf.jaxrs>
 		<version.swagger>1.5.22</version.swagger>
 		<version.webjar.swagger>3.22.2</version.webjar.swagger>
-		<version.camel>2.23.0</version.camel>
+		<version.camel>2.24.2</version.camel>
 	</properties>
 	<dependencies>
 		<dependency>
