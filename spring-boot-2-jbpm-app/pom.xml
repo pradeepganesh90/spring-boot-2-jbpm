@@ -198,7 +198,7 @@
 		<dependency>
 			<groupId>org.eclipse.jetty</groupId>
 			<artifactId>jetty-http</artifactId>
-			<version>8.2.0.v20160908</version><!--$NO-MVN-MAN-VER$-->
+			<version>9.4.48.v20220622</version><!--$NO-MVN-MAN-VER$-->
 		</dependency>
 	</dependencies>
 
